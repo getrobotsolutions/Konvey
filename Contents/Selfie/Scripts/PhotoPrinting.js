@@ -66,7 +66,7 @@ function JSMain()
 function GoHome()
 {
     //if(flagPictureAvatar == "true")   DeleteRobotFace();  //사진 아바타 삭제
-    location.href = "../../main.htm";
+    location.href = "../../maincontents.htm";
 }
 function JSUnload() 
 {
@@ -257,7 +257,7 @@ function SendEmail()
     // 메일 전송에 필요한 정보
     var addr = message;
     //var addr = "paul@robotaisolutions.com";
-    var subject = "Selfie on ARS Robot";
+    var subject = "Thanks for visiting Konvey";
     var body = "Email : " + message;
     //var mail_server = "smtp.gmail.com";
     //var mail_addr_sender = "ict.muscatairport@gmail.com";
