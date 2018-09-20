@@ -1,7 +1,7 @@
 ﻿var speak = new Array( );
 
 
-        speak[0] = "Learn more about Konvey, the system that gives you the flexibility to do virtually anything with your mailings.";
+        speak[0] = "Learn more about Convey, the system that gives you the flexibility to do virtually anything with your mailings.";
         speak[1] = "Please have a look at some of our products";
         speak[2] = "Please let us know how you enjoyed our event";
         speak[3] = "Read a welcome message from our dean.";
@@ -209,7 +209,7 @@ function OnJoystickControlled(strPara){
     if(btn_info[2] == '1'){
         window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Konvey is awesome, it's the best");
+            window.external.PlaySpeech("Convey is awesome, it's the best");
     }
     if(btn_info[3] == '1'){
         window.external.ChangeLanguage("en-us");
