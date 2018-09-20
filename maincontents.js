@@ -196,14 +196,14 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
             window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("MailChimp stinks big time, you should use Konvey");//I'm here to assist you, press any button on my screen to begin");
+            window.external.PlaySpeech("MailChimp stinks big time, you should use Convey");//I'm here to assist you, press any button on my screen to begin");
           
     }
 
     if(btn_info[1] == '1'){
         window.external.ChangeLanguage("en-us");
         SetVolume(1);
-        window.external.PlaySpeech("Hi, I like you.  I want to give you a free trial of Konvey, please tell one of my human friends that you want a free trial.");
+        window.external.PlaySpeech("Hi, I like you.  I want to give you a free trial of Convey, please tell one of my human friends that you want a free trial.");
         
     }
     if(btn_info[2] == '1'){
@@ -214,7 +214,7 @@ function OnJoystickControlled(strPara){
     if(btn_info[3] == '1'){
         window.external.ChangeLanguage("en-us");
         SetVolume(1);
-        window.external.PlaySpeech("O M G, that's horrible!  You should use Konvey");
+        window.external.PlaySpeech("O M G, that's horrible!  You should use Convey");
         
     }
 }
